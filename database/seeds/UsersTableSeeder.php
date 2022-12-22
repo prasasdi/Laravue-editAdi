@@ -13,8 +13,8 @@ class UsersTableSeeder extends Seeder
     {
         \App\User::create([
             'name' => 'admin',
-            'email' => 'admin@admin.com',
-            'password' => bcrypt('password'),
+            'email' => 'root',
+            'password' => bcrypt('root'),
             'tipe' => 'super',
             'photo' => 'profile1.png',
             'remember_token' => str_random(10),
